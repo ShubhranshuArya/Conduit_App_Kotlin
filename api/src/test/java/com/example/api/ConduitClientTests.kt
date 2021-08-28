@@ -1,6 +1,6 @@
 package com.example.api
 
-import com.example.api.models.entities.UserCreds
+import com.example.api.models.entities.UserRegisterCreds
 import com.example.api.models.requests.SignUpRequest
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
@@ -38,7 +38,7 @@ class ConduitClientTests {
 
     @Test
     fun `Post users - create user`() {
-        val userCreds = UserCreds(
+        val userCreds = UserRegisterCreds(
             email = "testemail${Random.nextInt(999, 9999)}@test.com",
             password = "pass${Random.nextInt(9999, 99999)}",
             username = "rand_user_${Random.nextInt(99, 999)}"
