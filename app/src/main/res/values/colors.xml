@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#DDDDDD</color>
-    <color name="conduit_green">#5C885C</color>
+    <color name="conduit_green">#449d44</color>
     <color name="conduit_green_dark">#456E45</color>
     <color name="conduit_grey">#818A91</color>
     <color name="conduit_grey_dark">#555F67</color>

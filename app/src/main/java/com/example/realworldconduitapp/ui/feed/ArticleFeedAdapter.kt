@@ -1,10 +1,13 @@
 package com.example.realworldconduitapp.ui.feed
 
+import android.graphics.Color
+import android.provider.CalendarContract
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.ViewParent
 import android.widget.ListAdapter
+import androidx.annotation.ColorInt
 import androidx.core.content.getSystemService
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
@@ -47,6 +50,7 @@ class ArticleFeedAdapter : androidx.recyclerview.widget.ListAdapter<Article, Art
             textViewAuthor.text = article.author.username
             textViewTitle.text = article.title
             textViewDescription.text = article.description
+//            imageViewAuthor.background =
         }
     }
 
